@@ -38,11 +38,11 @@
 }
 
 @font-face {
-  font-family: 'playfair';
+  font-family: 'Playfair';
   font-style: normal;
   font-weight: 500;
   font-display: auto;
-  src: url('../font/playfairdisplay-regular.ttf'); /* ie9 compat modes */
+  src: url('../font/PlayfairDisplay-Regular.ttf'); /* ie9 compat modes */
 }
 
 @font-face {
