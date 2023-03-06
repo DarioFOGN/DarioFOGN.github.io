@@ -1,0 +1,260 @@
+/*decalring all the font variables*/
+@font-face {
+  font-family: 'playfair';
+  font-style: normal;
+  font-weight: 500;
+  font-display: auto;
+  src: url('font/playfairdisplay-regular.ttf'); /* ie9 compat modes */
+}
+
+@font-face {
+  font-family: 'playfair italic';
+  font-display: auto;
+  src: url('font/playfairdisplay-italic.ttf'); /* ie9 compat modes */
+}
+
+@font-face {
+  font-family: 'Playfair italicB';
+  font-display: auto;
+  src: url('font/PlayfairDisplay-BoldItalic.ttf'); /* IE9 Compat Modes */
+}
+
+@font-face {
+  font-family: 'Cinzel';
+  font-display: auto;
+  src: url('font/Cinzel-ExtraBold.ttf'); /* IE9 Compat Modes */
+}
+
+/*the type of div content style*/
+
+
+.sidebar{
+    display: flexbox;
+    padding: 10px;
+    background-color:rgb(22, 118, 112);
+    width: 430px;
+    height: 100vh;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    position: fixed;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3);
+}
+
+.sidebar img {
+  border: 2px solid rgb(189, 224, 231);
+  background-size: cover;
+  position: relative;
+  left: 100px;
+  top: 50px;
+  width: 40%;
+  height: 170px;
+  border-radius: 100%;
+}
+
+.sidebar h1{
+  font-size: 60px;
+  font-family: 'Cinzel';
+  color: rgb(188, 224, 224);
+  top: 12cm;
+  left: 50px;
+  text-align: center;
+  position: fixed;
+  
+}
+
+.sidebar h2 {
+  letter-spacing: 2px;
+  font-size: 27px;
+  font-family: 'Playfair';
+  color: rgb(177, 223, 219);
+  top: 6cm;
+  left: 100px;
+  text-align: center;
+  position: fixed;
+}
+
+.sidebar p{
+  display: flex;
+  width: 330px; 
+  font-size: 23.5px;
+  font-family: 'Playfair';
+  color: rgb(143, 173, 173);
+  top: 14.5cm;
+  left: 53px;
+  position: fixed;
+}
+
+
+/*div to contain the social images*/
+.socials{
+  background-color:rgb(22, 118, 112);
+  display: flexbox;
+  padding: 10px;
+  width: 200px;
+  height: 70px;
+  z-index: 0;
+  top: 8cm;
+  left: 0;
+  position: fixed;
+}
+.socials img{
+  border: 0px;
+}
+
+.button1{
+  width: 190px;
+  height: 80px;
+  background-color: rgb(112, 163, 161);
+  position: relative;
+  right: 200px;
+  top:150px;
+  border-radius: 10px 0px 0px 10px;
+  box-shadow: 2px 2px 20px 0px rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  margin: 0px auto;
+}
+
+.button2{
+  width: 150px;
+  height: 80px;
+  background-color: rgb(112, 163, 161);
+  position: relative;
+  right: 40px;
+  top:50px;
+  box-shadow: 12px 12px 20px -10px rgba(0, 0, 0, 0.3);
+  border-radius: 0px 10px 10px 0px;
+  padding: 10px;
+  margin: 0px auto;
+}
+
+
+.button1:hover{
+  background-color: rgb(125, 179, 175);
+}
+
+.button1:active{
+  background-color: rgb(99, 145, 143);
+}
+
+.button2:hover{
+  background-color: rgb(125, 179, 175);
+}
+
+.button2:active{
+  background-color: rgb(99, 145, 143);
+}
+
+
+/*div that will contain all the posts*/
+.mainContent{
+  background-color: rgb(255, 255, 255);
+  width: 70%;
+  height: auto;
+  text-align: left;
+  padding: 50px;
+  top: -150px;
+  left: 500px;
+  position:absolute;
+}
+
+
+.mainContent h1{
+  font-family: "Playfair";
+  font-size: 45px;
+  color:rgb(22, 118, 112);
+}
+
+.mainContent a{
+  text-decoration: none;
+  position: relative;
+  width: 150px;
+  height: 80px;
+}
+
+.mainContent a:hover {
+  background-color: #ccc;
+}
+
+.mainContent a:active {
+  background-color: rgb(82, 117, 116);
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3) inset;
+  color: #fff;
+}
+
+/*.mainContent a:hover{
+  text-decoration: underline;
+  color:rgb(22, 118, 112);
+}*/
+
+.mainContent link{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 30px;
+  color: orange;
+}
+
+.mainContent p{
+  position: relative;
+  font-family: "Playfair";
+  font-size: 37px;
+  color:rgb(43, 92, 88);
+}
+
+
+.post{
+  display:flexbox;
+  position: relative;
+  top: 130px;
+  overflow-wrap: break-word;
+  height: 40vh;
+  width: 80%;
+  padding: 10px;
+  border-radius: 5%;
+  overflow:hidden;
+}
+
+.post p{
+  font-family: "Playfair";
+  font-size: 20px;
+  color:rgb(56, 67, 66);
+}
+
+.post a::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    border-radius: 4px;
+    background-color: rgb(22, 118, 112);
+    bottom: 0;
+    left: 0;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .3s ease-in-out;
+}
+
+.post a:hover::before {
+  transform-origin: left;
+  transform: scaleX(1);
+}
+
+/* personal formattations type*/
+.date{
+  line-height: 0.1;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 24px;
+  color: gray;
+  border-spacing: 0cm;
+}
+
+/*vertical separator*/
+hr.vertical-hr {
+    position: relative;
+    bottom:108px;
+    right: 9px;
+    border: none;
+    border-left: 2px solid rgba(75, 127, 142, 0.643); /* Change color and thickness as desired */
+    height: 55px; /* Change height as desired */
+    margin: 0 10px; /* Add margin as desired */
+    transform: rotate(180deg); /* Rotate the element 90 degrees */
+  }
