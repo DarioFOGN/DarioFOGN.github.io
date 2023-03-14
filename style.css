@@ -200,6 +200,15 @@
   color:rgb(43, 92, 88);
 }
 
+.transition-fade {
+    transition: 0.4s;
+    opacity: 1;
+}
+
+html.is-animating .transition-fade {
+    opacity: 0;
+}
+
 
 .post{
   display:flexbox;
@@ -249,12 +258,30 @@
 
 /*vertical separator*/
 hr.vertical-hr {
-    position: relative;
-    bottom:108px;
-    right: 9px;
-    border: none;
-    border-left: 2px solid rgba(75, 127, 142, 0.643); /* Change color and thickness as desired */
-    height: 55px; /* Change height as desired */
-    margin: 0 10px; /* Add margin as desired */
-    transform: rotate(180deg); /* Rotate the element 90 degrees */
-  }
+  position: relative;
+  bottom:108px;
+  right: 9px;
+  border: none;
+  border-left: 2px solid rgba(75, 127, 142, 0.643); /* Change color and thickness as desired */
+  height: 55px; /* Change height as desired */
+  margin: 0 10px; /* Add margin as desired */
+  transform: rotate(180deg); /* Rotate the element 90 degrees */
+}
+
+blockquote {
+  margin: 0;
+}
+
+blockquote p {
+    padding: 15px;
+    background: #eee;
+    border-radius: 5px;
+}
+
+blockquote p::before {
+    content: '\201C';
+}
+
+blockquote p::after {
+    content: '\201D';
+}
