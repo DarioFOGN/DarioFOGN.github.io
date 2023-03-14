@@ -378,14 +378,14 @@ hr.vertical-hr {
 }
 
 blockquote {
-  background: #f9f9f9;
-  border-left: 10px solid #ccc;
+  background: #e4eaea;
+  border-left: 10px solid #84a8aa;
   margin: 1.5em 10px;
   padding: 0.5em 10px;
   quotes: "\201C""\201D""\2018""\2019";
 }
 blockquote:before {
-  color: #ccc;
+  color: #82a9a6;
   content: open-quote;
   font-size: 4em;
   line-height: 0.1em;
