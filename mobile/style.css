@@ -116,7 +116,7 @@ body {
 }
 
 .mainContent{
-    display: flex;
+    display:inline;
     position: relative;
     background-color: white;
     top: 200px;
@@ -125,6 +125,57 @@ body {
     min-height: 100vh;
     overflow-y: scroll;
 }
+.mainContent .post {
+  position: relative;
+  overflow-wrap: break-word;
+  width: 100%;
+  padding: 30px;
+  border-radius: 5%;
+  overflow:hidden;
+  margin-bottom: 50px;
+}
+
+.mainContent .post a {
+    text-decoration: none;
+    color: rgb(43, 92, 88);
+}
+
+.mainContent .post .date {
+    font-size: 35px;
+    color: gray;
+    margin: 12px 0;
+}
+
+.post p {
+    font-family: "Playfair";
+    font-size: 40px;
+    color: rgb(56, 67, 66);
+}
+.post a h1 {
+    display: inline-block;
+    position: relative;
+    font-family: "Playfair";
+    font-size: 70px;
+}
+
+.post a h1::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(43, 92, 88);
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.post a h1:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
 
 p{
     display: flexbox;
