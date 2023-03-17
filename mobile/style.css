@@ -63,6 +63,7 @@ body {
 }
 
 .OpinionStripe p {
+    font-size: 67px;
     position: relative;
     color: rgb(22, 58, 56);
     height: 90%;
