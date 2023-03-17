@@ -14,10 +14,13 @@ body {
 .buttonStripe {
     width: 100px;
     height: 100px;
-    background-color: rgb(127, 255, 212);
+    background-color: rgb(83, 176, 179);
     border-radius: 10px;
+    position: absolute;
+    top: 50px;
+    left: 830px;
 }
 
-.buttonStripe:hover{
-    background-color: rgb(95, 190, 159);
+.buttonStripe:active{
+    background-color: rgb(69, 155, 158);
 }
