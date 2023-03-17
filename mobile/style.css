@@ -43,14 +43,14 @@ body {
 .stripe hr {
     position: absolute;
     rotate: 90deg;
-    border-color: black;
+    border-color: rgb(20, 58, 62);
     width: 10%;
     top: 40%;
-    right: 50%;
+    right: 56%;
 }
 
 .OpinionStripe{
-    width: 41%;
+    width: 35%;
     height: 90%;
     padding: 20px;
     position: absolute;
@@ -68,18 +68,29 @@ body {
     color: rgb(22, 58, 56);
     height: 90%;
     bottom: 10%;
-    left: 20%;
+    left: 18%;
 }
 
 .BookStripe{
-    width: 30%;
-    height: 50%;
-    background-color: white;
+    width: 31%;
+    height: 90%;
     padding: 20px;
     position: absolute;
-    top: 25%;
-    left: 40%;
-    max-width: 10%;
+    bottom: 0%;
+    left: 39%;
+}
+
+.BookStripe:active{
+    background-color:rgb(15, 84, 80);
+}
+
+.BookStripe p {
+    font-size: 67px;
+    position: relative;
+    color: rgb(22, 58, 56);
+    height: 90%;
+    bottom: 10%;
+    left: 23%;
 }
 
 .buttonStripe {
@@ -89,7 +100,7 @@ body {
     border-radius: 20px;
     position: absolute;
     top: 25%;
-    left: 85%;
+    left: 88%;
 }
 
 .buttonStripe img{
