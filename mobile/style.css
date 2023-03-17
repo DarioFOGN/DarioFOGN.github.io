@@ -35,7 +35,7 @@ body {
     position:fixed;
     background-color:rgb(22, 118, 112);
     width: 100%;
-    height: 170px;
+    height: 200px;
     top: 0px;
     left: 0px;
 }
@@ -141,21 +141,21 @@ body {
 }
 
 .mainContent .post .date {
-    font-size: 35px;
+    font-size: 30px;
     color: gray;
     margin: 12px 0;
 }
 
 .post p {
     font-family: "Playfair";
-    font-size: 40px;
+    font-size: 35px;
     color: rgb(56, 67, 66);
 }
 .post a h1 {
     display: inline-block;
     position: relative;
     font-family: "Playfair";
-    font-size: 80px;
+    font-size: 70px;
 }
 
 .post a h1::after {
