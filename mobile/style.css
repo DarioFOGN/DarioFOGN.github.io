@@ -129,7 +129,7 @@ body {
   position: relative;
   overflow-wrap: break-word;
   width: 100%;
-  padding: 30px;
+  padding: 40px;
   border-radius: 5%;
   overflow:hidden;
   margin-bottom: 50px;
@@ -141,21 +141,21 @@ body {
 }
 
 .mainContent .post .date {
-    font-size: 35px;
+    font-size: 40px;
     color: gray;
     margin: 12px 0;
 }
 
 .post p {
     font-family: "Playfair";
-    font-size: 40px;
+    font-size: 45px;
     color: rgb(56, 67, 66);
 }
 .post a h1 {
     display: inline-block;
     position: relative;
     font-family: "Playfair";
-    font-size: 70px;
+    font-size: 80px;
 }
 
 .post a h1::after {
