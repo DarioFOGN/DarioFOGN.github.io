@@ -43,7 +43,7 @@ body {
 .buttonStripe {
     width: 10%;
     height: 50%;
-    background-color: #53b0b3;
+    background-color: white;
     border-radius: 15px;
     position: absolute;
     top: 25%;
@@ -52,14 +52,14 @@ body {
 
 .buttonStripe img{
     position: absolute;
-    top: 5%;
-    left: 5%;
-    width: 90%;
-    max-height: 100%;
+    bottom: -23%;
+    left: -18%;
+    width: 150%;
+    height: 150%;
 }
 
 .buttonStripe:active{
-    background-color: rgb(69, 155, 158);
+    background-color: rgb(147, 174, 175);
 }
 
 .mainContent{
