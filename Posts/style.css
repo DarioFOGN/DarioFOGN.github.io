@@ -329,12 +329,12 @@ hr.vertical-hr {
 
 .button-up,
 .button-down {
-  position: relative;
+  position: fixed;
   padding: 9px;
-  margin: 30px auto;
-  background: #2b6c65;
-  top:200px;
-  right: 750px;
+  margin: 10px auto;
+  background: #1f504b;
+  top:50px;
+  right: 1150px;
   height:23px;
   width: 23px;
   border-radius: 50%;
@@ -357,11 +357,10 @@ hr.vertical-hr {
 .button-up::after,
 .button-down::after {
   content: "";
-  position: absolute;
+  position: fixed;
   left: 14px;
   padding: 0px;
   z-index: 12;
-  display:  flexbox;
   width: 10px;
   height: 10px;
   border-top: 2px solid #fff;
