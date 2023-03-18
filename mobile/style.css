@@ -1,4 +1,49 @@
 /*decalring all the font variables*/
+
+@font-face {
+  font-family: 'Oxygen';
+  font-style: normal;
+  font-weight: 500;
+  font-display: auto;
+  src: url('../font/Oxygen/Raleway-Medium.ttf'); /* IE9 Compat Modes */
+}
+
+@font-face {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 300;
+  font-display: auto;
+  src: url('../font/Merriweather-Light.ttf'); /* ie9 compat modes */
+}
+
+@font-face {
+  font-family: 'Merriweather italic';
+  font-style: normal;
+  font-weight: 300;
+  font-display: auto;
+  src: url('../font/Merriweather-LightItalic.ttf'); /* ie9 compat modes */
+}
+
+@font-face {
+  font-family: 'EB Garamond';
+  font-style: normal;
+  font-weight: 400;
+  font-display: auto;
+  src: url('fonts/garamond/eb-garamond-v9-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('EB Garamond Regular'), local('EBGaramond-Regular'),
+       url('fonts/garamond/eb-garamond-v9-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/garamond/eb-garamond-v9-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/garamond/eb-garamond-v9-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('fonts/garamond/eb-garamond-v9-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('fonts/garamond/eb-garamond-v9-latin-regular.svg#EBGaramond') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'Lora';
+  font-display: auto;
+  src: url('../font/Lora-Regular.ttf'); /* IE9 Compat Modes */
+}
+
 @font-face {
   font-family: 'Playfair';
   font-style: normal;
@@ -125,6 +170,7 @@ body {
     min-height: 100vh;
     overflow-y: scroll;
 }
+
 .mainContent .post {
   position: relative;
   overflow-wrap: break-word;
@@ -150,10 +196,19 @@ body {
 
 .mainContent .post p {
     text-size-adjust: none;
-    font-family: "Playfair";
+    font-family: "Lora";
     font-size: 42px;
     color: rgb(56, 67, 66);
 }
+
+.post h1{
+    color: #2b6c65;
+    display: inline-block;
+    position: relative;
+    font-family: "Playfair";
+    font-size: 80px;
+}
+
 .post a h1 {
     display: inline-block;
     position: relative;
@@ -182,7 +237,7 @@ body {
 
 p{
     display: flexbox;
-    font: "Playfair";
+    font: "Lora";
     font-size: 40px;
 }
 
@@ -291,12 +346,48 @@ p{
     top:70px;
 }
 
-
-
-
-
 /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
 #main {
   transition: margin-right .5s;
   padding: 20px;
+}
+
+.post h2{
+  text-align: center;
+  font-family: "Lora";
+  font-size: 55px;
+  color:rgb(38, 109, 105);
+}
+
+.post h3{
+  text-align: left;
+  font-family: "Oxygen";
+  font-size: 33px;
+  color: #2b6c65;
+}
+
+.post ul{
+  line-break:strict;
+  font-family: "Lora";
+  font-size: 40px;
+  color:rgb(56, 67, 66);
+}
+
+blockquote {
+  background: #e4eaea;
+  border-left: 10px solid #84a8aa;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+  color: #82a9a6;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
 }
