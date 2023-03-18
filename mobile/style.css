@@ -210,6 +210,7 @@ body {
 }
 
 .post a h1 {
+    text-size-adjust: none;
     display: inline-block;
     position: relative;
     font-family: "Playfair";
@@ -236,6 +237,7 @@ body {
 
 
 p{
+    text-size-adjust: none;
     display: flexbox;
     font: "Lora";
     font-size: 40px;
@@ -353,6 +355,7 @@ p{
 }
 
 .post h2{
+  text-size-adjust: none;
   text-align: center;
   font-family: "Lora";
   font-size: 55px;
@@ -360,6 +363,7 @@ p{
 }
 
 .post h3{
+  text-size-adjust: none;
   text-align: left;
   font-family: "Oxygen";
   font-size: 33px;
@@ -367,6 +371,7 @@ p{
 }
 
 .post ul{
+  text-size-adjust: none;
   line-break:strict;
   font-family: "Lora";
   font-size: 40px;
@@ -377,14 +382,14 @@ blockquote {
   background: #e4eaea;
   border-left: 10px solid #84a8aa;
   margin: 1.5em 10px;
-  padding: 0.5em 10px;
+  padding: 0.5em 20px;
   quotes: "\201C""\201D""\2018""\2019";
 }
 blockquote:before {
   color: #82a9a6;
   content: open-quote;
-  font-size: 4em;
-  line-height: 0.1em;
+  font-size: 8em;
+  line-height: 0.3em;
   margin-right: 0.25em;
   vertical-align: -0.4em;
 }
