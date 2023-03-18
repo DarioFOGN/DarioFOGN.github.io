@@ -50,7 +50,7 @@ body {
 }
 
 .OpinionStripe{
-    width: 35%;
+    width: 35.4%;
     height: 90%;
     padding: 20px;
     position: absolute;
@@ -141,14 +141,14 @@ body {
 }
 
 .mainContent .post .date {
-    font-size: 30px;
+    font-size: 25px;
     color: gray;
     margin: 12px 0;
 }
 
-.post p {
+.mainContent .post p {
     font-family: "Playfair";
-    font-size: 35px;
+    font-size: 30px;
     color: rgb(56, 67, 66);
 }
 .post a h1 {
