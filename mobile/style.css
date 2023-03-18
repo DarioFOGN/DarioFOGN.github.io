@@ -204,7 +204,6 @@ p{
 
 /* Position and style the close button (top right corner) */
 .sidenav .closebtn {
-  background-color: rgb(76, 141, 139);
   position: absolute;
   top: 0;
   width: 50px;
