@@ -117,7 +117,7 @@ body {
 }
 
 .BookStripe{
-    width: 31%;
+    width: 35.4%;
     height: 90%;
     padding: 20px;
     position: absolute;
@@ -135,7 +135,7 @@ body {
     color: rgb(22, 58, 56);
     height: 90%;
     bottom: 8%;
-    left: 23%;
+    left: 22%;
 }
 
 .buttonStripe {
