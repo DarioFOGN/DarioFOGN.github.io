@@ -197,7 +197,7 @@ body {
 .mainContent .post p {
     text-size-adjust: none;
     font-family: "Lora";
-    font-size: 42px;
+    font-size: 44px;
     color: rgb(56, 67, 66);
 }
 
@@ -358,7 +358,7 @@ p{
   text-size-adjust: none;
   text-align: center;
   font-family: "Lora";
-  font-size: 55px;
+  font-size: 58px;
   color:rgb(38, 109, 105);
 }
 
@@ -366,7 +366,7 @@ p{
   text-size-adjust: none;
   text-align: left;
   font-family: "Oxygen";
-  font-size: 33px;
+  font-size: 36px;
   color: #2b6c65;
 }
 
