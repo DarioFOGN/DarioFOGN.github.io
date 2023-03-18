@@ -238,7 +238,6 @@ body {
 
 p{
     text-size-adjust: none;
-    display: flexbox;
     font: "Lora";
     font-size: 40px;
 }
