@@ -87,7 +87,7 @@ body {
 
 .stripe hr {
     position: absolute;
-    rotate: 90deg;
+    transform: rotate(90deg);
     border-color: rgb(20, 58, 62);
     width: 10%;
     top: 40%;
