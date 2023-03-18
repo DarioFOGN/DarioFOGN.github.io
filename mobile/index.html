@@ -4,8 +4,28 @@
   <meta charset="UTF-8">
   <title>My Blog</title>
   <link rel="stylesheet" href="./style.css">
+  <script src="script.js"></script>
 </head>
 <body>
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <img class="profilePhoto" src="image/cat.jpg">
+        <h2 class="profileName">Dario Pillinini</h2>
+
+        <div class="socials">
+            <a target="_blank" href="https://github.com/DarioFOGN?tab=repositories"> <img src="image/github.png"></a>
+            <a target="_blank" href="https://www.instagram.com/arioilsaggio/"> <img src="image/instagram.png"></a>
+            <a target="_blank" href="https://www.twitch.tv/dario3004"> <img src="image/twitch.png"></a>
+        </div>
+        <h1 class="sideTitle">Sonder</h1>
+        <p>Welcome to my blog!<br>Here you'll find my reading journey with my readings summarised, along with personal notes and my final
+            opinion on the matter. In addition you'll find my opinions where I elaborate my personal thoughts on various
+            topics of interest.<br>
+            Hope you'll enjoy!
+        </p>
+        
+      </div>
+
       <div class="mainContent">
         <div class="post">
             <a href="./Posts/Opinions/WokeCapitalism.html"><h1>Woke Capitalism</h1></a>
@@ -32,11 +52,10 @@
       </div>
 
       <div class="stripe"> 
-        
         <a href="./index.html"><div class="OpinionStripe"><p>Opinions</p></div></a>
         <hr>
         <a href="./books.html"><div class="BookStripe"><p>Books</p></div></a>
-        <div class="buttonStripe"><img src="image/menu2.png"></div>
+        <div class="buttonStripe" onclick="openNav()"><img src="image/menu2.png"></div>
 
       </div>
 </body>
