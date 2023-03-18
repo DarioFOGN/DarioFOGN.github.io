@@ -141,14 +141,16 @@ body {
 }
 
 .mainContent .post .date {
-    font-size: 25px;
+    text-size-adjust: none;
+    font-size: 30px;
     color: gray;
     margin: 12px 0;
 }
 
 .mainContent .post p {
+    text-size-adjust: none;
     font-family: "Playfair";
-    font-size: 30px;
+    font-size: 40px;
     color: rgb(56, 67, 66);
 }
 .post a h1 {
