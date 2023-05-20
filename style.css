@@ -86,6 +86,7 @@ body {
     align-items: center;
     border-radius: 40px;
     width: 240px;
+    min-height: 55px;
     height: 55px;
     margin-top: 6%;
 }
