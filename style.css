@@ -55,12 +55,14 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
+    max-height: 120vh;
     background-color: rgb(22, 118, 112);
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3);
     min-width: 450px;
     width: 12%;
     max-width: 500px;
+    overflow-y: visible;
 }
 
 .sidebar .profilePhoto {
@@ -115,7 +117,7 @@ body {
 .sidebar p {
     display: flex;
     width: 85%;
-    font-size: 24px;
+    font-size: 22px;
     font-family: 'Playfair';
     color: rgb(131, 184, 184);
 }
