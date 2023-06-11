@@ -117,7 +117,7 @@ body {
 .sidebar p {
     display: flex;
     width: 85%;
-    font-size: 22px;
+    font-size: 20px;
     font-family: 'Playfair';
     color: rgb(131, 184, 184);
 }
@@ -207,7 +207,7 @@ body {
 
 .post p {
     font-family: "Playfair";
-    font-size: 20px;
+    font-size: 22px;
     color: rgb(56, 67, 66);
 }
 

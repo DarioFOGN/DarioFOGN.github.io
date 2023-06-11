@@ -191,10 +191,11 @@ body {
 }
 
 .mainContent .post {
-    padding-left: 3%;
+    margin-left: 3%;
+    margin-top: 0%;
+    margin-bottom: 0%;
     width: 95%;
-    margin: auto;
-    margin-bottom: 35px;
+    padding: 0%
 }
 
 .mainContent .post a {
@@ -217,7 +218,8 @@ body {
     font-weight: 700;
     font-size: 45px;
     color: rgb(22, 118, 112);
-    margin: 12px 0;
+    margin-bottom: 2%;
+    padding: 0%;
 }
 
 
@@ -225,6 +227,7 @@ body {
     font-family: "Playfair";
     font-size: 20px;
     color: rgb(56, 67, 66);
+    margin: 0%;
 }
 
 .transition-fade {
@@ -269,13 +272,14 @@ html.is-animating .transition-fade {
 .post p { 
     font-family: "Playfair";
     font-weight: 200;
-    margin: 10px 0;
+    margin-top: 20px;
+    margin-bottom: 20px; 
     font-size: 23px !important;
 }
 
 .post h2{
-  margin-top: 5%;
-  margin-bottom: 5%;
+  margin-top: 2%;
+  margin-bottom: 2%;
   text-size-adjust: none;
   line-break:strict;
   font-family: "Lora";
@@ -308,6 +312,7 @@ blockquote {
   padding: 0.5em 10px;
   quotes: "\201C""\201D""\2018""\2019";
 }
+
 blockquote:before {
   color: #82a9a6;
   content: open-quote;
@@ -316,6 +321,27 @@ blockquote:before {
   margin-right: 0.25em;
   vertical-align: -0.4em;
 }
+
 blockquote p {
   display: inline;
+}
+
+hr {
+    margin-top: 35px;
+    margin-bottom: 35px;
+    border: none;
+    border-top: 3px double #2b675e;
+    color: #266262;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+}
+
+hr:after {
+    font-size: larger;
+    background: #fff;
+    content: '§';
+    padding: 0 4px;
+    position: relative;
+    top: -13px;
 }
